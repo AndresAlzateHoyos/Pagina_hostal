@@ -1,0 +1,11 @@
+
+body {
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 10%;
+    font-family: 'Playfair Display';
+}
+
+ul {
+    list-style: none;
+}
