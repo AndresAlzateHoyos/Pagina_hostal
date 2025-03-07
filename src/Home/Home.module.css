@@ -1,6 +1,18 @@
-main {
+.main {
     text-align: center;
     margin: 0 auto;
     width: 80%;
     border: white;
+}
+
+.imgLine {
+    display: flex;
+    align-items: center;
+    margin: 80px auto;
+    justify-content: space-around;
+}
+
+.imgLine img {
+    width: 240px;
+    height: 240px;
 }

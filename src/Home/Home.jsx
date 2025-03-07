@@ -4,9 +4,9 @@ import BookABed from '../BookABed/BookABed';
 
 function Home () {
     return (
-        <main>
+        <main className={styles.main}>
             <h1>The Wandering Paisa Backpackers Hostel</h1>
-            <div className='imgs-line'>
+            <div className={styles.imgLine}>
                 <img></img>
                 <img></img>
                 <img></img>
@@ -19,7 +19,7 @@ function Home () {
             <h2>Join the adventure -- book your stay today!</h2>
             <BookABed />
 
-            <div className='imgs-line'>
+            <div className={styles.imgLine}>
                 <img></img>
                 <img></img>
                 <img></img>
