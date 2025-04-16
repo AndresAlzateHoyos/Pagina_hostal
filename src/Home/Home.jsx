@@ -7,9 +7,9 @@ function Home () {
         <main className={styles.main}>
             <h1>The Wandering Paisa Backpackers Hostel</h1>
             <div className={styles.imgLine}>
-                <img></img>
-                <img></img>
-                <img></img>
+                <img src='../images/home/Group-2.jpg'></img>
+                <img src='../images/home/HostelWorldAward.png'></img>
+                <img src='../images/home/miguel-22.jpg'></img>
             </div>
             <div className={styles.experienceMedellin}>
             <h2>Experience Medellin's Most Authentic Hostel!</h2>
@@ -20,16 +20,16 @@ function Home () {
             <div>Enjoy <strong>weekly events</strong> where backpackers meet locals, from <strong>language exchanges</strong> to <strong>salsa nights</strong>. Walk to bars, clubs, and city attractions, or relax in our comfortable, friendly space.</div>
             </div>
 
-            <h2>Join the adventure -- book your stay today!</h2>
+            <h2>Join the adventure — book your stay today!</h2>
 
 
             <BookABed />
 
 
             <div className={styles.imgLine}>
-                <img></img>
-                <img></img>
-                <img></img>
+                <img src='../images/home/Brazil-Dorm-1.jpg' ></img>
+                <img src='../images/home/Uruguay22.jpg'></img>
+                <img src='../images/home/Argentina-1.jpg'></img>
             </div>
 
             <div className={styles.informationLine}>

@@ -13,8 +13,9 @@
 }
 
 .imgLine img {
-    width: 240px;
-    height: 240px;
+    width: 284px;
+    height: 160px;
+    border-radius: 10px;
 }
 
 .experienceMedellin {
