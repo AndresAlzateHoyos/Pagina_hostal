@@ -1,8 +1,6 @@
 
 body {
     background-color: white;
-    padding: 10px;
-    border-radius: 10%;
     font-family: 'Playfair Display';
 }
 
@@ -10,3 +8,34 @@ ul {
     list-style: none;
 }
 
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* para que quede encima */
+  }
+
+  header nav {
+    background-color: #0B3D2E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+  }
+
+  main {
+    margin-top: 100px; /* espacio para el header fijo */
+    margin-bottom: 150px; /* espacio para el footer fijo */
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+    background-color: #0B3D2E;
+    color: white;
+    padding: 10px;
+    z-index: 1000;
+  }

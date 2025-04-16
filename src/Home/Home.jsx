@@ -11,13 +11,18 @@ function Home () {
                 <img></img>
                 <img></img>
             </div>
+            <div className={styles.experienceMedellin}>
             <h2>Experience Medellin's Most Authentic Hostel!</h2>
             <div>Stay at the award-winning <strong>Wandering Paisa Hostel</strong>, known for its cultural vibe, social atmosphere, and unbeatable location in <strong>Laureles</strong>—one of Medellin's top neighborhoods.</div>
 
+            <br></br>
+
             <div>Enjoy <strong>weekly events</strong> where backpackers meet locals, from <strong>language exchanges</strong> to <strong>salsa nights</strong>. Walk to bars, clubs, and city attractions, or relax in our comfortable, friendly space.</div>
+            </div>
 
             <h2>Join the adventure -- book your stay today!</h2>
             <BookABed />
+
 
             <div className={styles.imgLine}>
                 <img></img>

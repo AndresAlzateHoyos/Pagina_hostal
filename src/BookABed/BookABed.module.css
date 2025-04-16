@@ -16,8 +16,7 @@
     padding: 10px;
     background-color: white;
     border-radius: 10px;
-    border: none;
-    box-shadow: inset 6px 5px bisque
+    border: 1px solid bisque;
 }
 
 .bookButton:hover {

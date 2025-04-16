@@ -10,11 +10,6 @@ function Footer () {
                 <div>Cell: <strong>+57 315 539 4950</strong> Landline: <strong>604 301 7570</strong></div>
                 <button type="submit" className={styles.sendMessageButton}>SEND A MESSAGE</button>
             </div>
-            <div className={styles.bookNow}>
-                <h2>Book a Room Now</h2>
-                <div>Booking is easy and safe through hostelworld's trusted booking engine:</div>
-                <button type='submit'><div>CLICK HERE TO</div> <h3>BOOK NOW</h3></button>
-            </div>
         </footer>
     )
 };
