@@ -21,6 +21,8 @@ function Home () {
             </div>
 
             <h2>Join the adventure -- book your stay today!</h2>
+
+
             <BookABed />
 
 
@@ -30,11 +32,15 @@ function Home () {
                 <img></img>
             </div>
 
-            <div className='information-line'>
-                <div>Info 1</div>
-                <div>Info 2</div>
-                <div>Info 3</div>
-                <div>Info 4</div>
+            <div className={styles.informationLine}>
+                <div><strong className={styles.informationData}>3100</strong><br/>
+                Backpackers Stayed with Us on 2024</div>
+                <div><strong className={styles.informationData}>29</strong><br/>
+                Beds in Shared Rooms</div>
+                <div><strong className={styles.informationData}>12</strong><br/>
+                Fun Events Every Month</div>
+                <div><strong className={styles.informationData}>2</strong><br/>
+                Comfortable Private Rooms</div>
             </div>
 
         </main>
