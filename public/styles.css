@@ -30,16 +30,12 @@ header {
 
   main {
     padding-top: 100px; /* espacio para el header fijo */
-    padding-bottom: 180px; /* espacio para el footer fijo */
   }
 
   footer {
-    position: fixed;
-    bottom: 0;
-    left:0;
     width: 100%;
     background-color: #0B3D2E;
     color: white;
-    padding: 10px;
     z-index: 1000;
+
   }

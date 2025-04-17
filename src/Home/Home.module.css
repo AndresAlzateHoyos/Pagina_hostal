@@ -5,12 +5,33 @@
     border: black;
 }
 
+.carousel {
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+  }
+  
+  .carousel img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: contain;
+    border-radius: 15px; 
+  }
+
+.carousel :global(.swiper-slide) {
+    overflow: hidden;
+    border-radius: 15px;
+}
+
 .imgLine {
     display: flex;
     align-items: center;
     margin: 80px auto;
     justify-content: space-around;
 }
+
+
 
 .imgLine img {
     width: 284px;

@@ -1,4 +1,10 @@
 import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Autoplay } from 'swiper/modules';
+
+//estilos de swiper
+import 'swiper/css';
+import 'swiper/css/navigation';
 import styles from './Home.module.css';
 import BookABed from '../BookABed/BookABed';
 
@@ -6,11 +12,19 @@ function Home () {
     return (
         <main className={styles.main}>
             <h1>The Wandering Paisa Backpackers Hostel</h1>
-            <div className={styles.imgLine}>
-                <img src='../images/home/Group-2.jpg'></img>
-                <img src='../images/home/HostelWorldAward.png'></img>
-                <img src='../images/home/miguel-22.jpg'></img>
-            </div>
+            <Swiper
+                modules={[Navigation, Autoplay]}
+                spaceBetween={10}
+                slidesPerView={1}
+                navigation
+                autoplay={{ delay: 6000 }}
+                loop
+                className={styles.carousel}
+            >
+                <SwiperSlide><img src="/images/home/Group-2.jpg" alt="Hostel 1" /></SwiperSlide>
+                <SwiperSlide><img src="/images/home/HostelWorldAward.png" alt="Hostel 2" /></SwiperSlide>
+                <SwiperSlide><img src="/images/home/miguel-22.jpg" alt="Hostel 3" /></SwiperSlide>
+            </Swiper>
             <div className={styles.experienceMedellin}>
             <h2>Experience Medellin's Most Authentic Hostel!</h2>
             <div>Stay at the award-winning <strong>Wandering Paisa Hostel</strong>, known for its cultural vibe, social atmosphere, and unbeatable location in <strong>Laureles</strong>—one of Medellin's top neighborhoods.</div>
