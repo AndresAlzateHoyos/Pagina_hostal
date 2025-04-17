@@ -3,10 +3,21 @@
     text-align: center;
     line-height: 1.3;
     border-top: 5px solid white;
+    font-size: 0.8rem;
+}
+
+.footer h2 {
+    margin-top: 2px
+}
+
+.contactFooter {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .sendMessageButton {
-    width: 30%;
+    width: 80%;
     padding: 10px;
     background-color: white;
     border-radius: 10px;

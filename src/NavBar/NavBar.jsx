@@ -6,7 +6,7 @@ function NavBar () {
 return (
     <header>
         <nav>
-            <img className={styles.logoImg} src='../../images/Logo/BANNERLOG.png' alt='Logo del hostal'></img>
+            <img className={styles.logoImg} src='../../images/Logo/logo_redondo_beige.png' alt='Logo del hostal'></img>
             <ul>
                 <li><NavLink to='/' className={styles.link}>Home</NavLink></li>
                 <li><NavLink to='/the-hostel' className={styles.link}>The Hostel</NavLink></li>

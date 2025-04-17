@@ -20,10 +20,15 @@ header nav {
 }
 
 .logoImg {
-    background-color: bisque;
+    height: 90%;
+    width: auto;
+    object-fit: contain;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50%;
 }
 
-img {
+.imgLine img {
     aspect-ratio: 24 / 9;
     height: 40px;
 }
