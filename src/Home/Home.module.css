@@ -1,62 +1,105 @@
 .main {
     text-align: center;
     margin: 0 auto;
-    width: 80%;
-    border: black;
-}
-
-.carousel {
     width: 100%;
-    max-width: 400px;
-    margin: 50px auto;
-    margin-bottom: 0px;
   }
   
-  .carousel img {
-    width: 100%;
-    height: auto;
-    max-height: 400px;
-    object-fit: contain;
-    border-radius: 25px; 
+  .title {
+    margin-top: 100px;
+    margin-bottom: 100px;
   }
-
-.carousel :global(.swiper-slide) {
+  
+  .swipers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .carouselLeft,
+  .carouselRight {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto 0 auto;
+  }
+  
+  .carouselLeft img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 25px 0 0 25px;
+  }
+  
+  .carouselRight img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 0 25px 25px 0;
+  }
+  
+  /* Swiper slide */
+  .carouselLeft :global(.swiper-slide),
+  .carouselRight :global(.swiper-slide) {
     overflow: hidden;
     border-radius: 15px;
-}
-
-.imgLine {
+  }
+  
+  /* Ocultar flechas por defecto */
+  :global(.swiper-button-next),
+  :global(.swiper-button-prev) {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Mostrar flechas al hacer hover sobre el carrusel */
+  .carouselLeft:hover :global(.swiper-button-next),
+  .carouselLeft:hover :global(.swiper-button-prev),
+  .carouselRight:hover :global(.swiper-button-next),
+  .carouselRight:hover :global(.swiper-button-prev) {
+    opacity: 1;
+  }
+  
+  /* Línea de imágenes */
+  .imgLine {
     display: flex;
     align-items: center;
     margin: 80px auto;
     justify-content: space-around;
-}
-
-
-
-.imgLine img {
-    width: 284px;
-    height: 160px;
+  }
+  
+  .imgLine img {
+    width: 25%;
+    height: auto;
+    aspect-ratio: 4 / 3;
     border-radius: 10px;
-}
-
-.experienceMedellin {
+  }
+  
+  /* Sección central destacada */
+  .experienceMedellin {
     border: 1px solid bisque;
     width: 40%;
     margin: 80px auto;
     padding: 20px;
     border-radius: 10px;
-}
-
-.informationLine {
+  }
+  
+  /* Línea de estadísticas */
+  .informationLine {
     display: flex;
     align-items: center;
     margin: 80px auto;
     justify-content: space-around;
-}
-
-.informationData {
+  }
+  
+  .informationData {
     font-size: 2.5rem;
     color: #0B3D2E;
     line-height: 1.8;
-}
+  }
+  
+  /* Imagen del premio */
+  .prizeImg img {
+    height: clamp(200px, 25vw, 440px);
+    width: auto;
+    display: block;
+    margin: 0 auto;
+  }

@@ -1,0 +1,18 @@
+.experienceColombia {
+    border: 1px solid bisque;
+    width: 40%;
+    margin: 80px auto;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .experienceColombia ul li {
+    margin-top: 20px;
+    list-style: circle;
+  }
+
+  .theHostelImg {
+    width: 50vw;
+    border-radius: 25px;
+    height: 50vw;
+  }
