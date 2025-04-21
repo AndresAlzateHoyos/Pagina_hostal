@@ -1,7 +1,10 @@
-import React from 'react';
-import styles from './TheHostel.module.css'
+import React, { useState } from 'react';
+import styles from './TheHostel.module.css';
+import Gallery from '../gallery/Gallery';
 
 function TheHostel() {
+  const [galleryOpen, setGalleryOpen] = useState(false);
+
   return (
     <main>
       <h1>About The Hostel</h1>
@@ -23,8 +26,28 @@ function TheHostel() {
       <div><img src='./images/theHostel/2C4B6727-61F7-410E-B977-8C79ED393321-2.jpeg' className={styles.theHostelImg}></img></div>
       <h2>Relax, Connect & Enjoy at The Wandering Paisa Hostel</h2>
       <div className={styles.experienceColombia}>
-        <p>🎬 <strong>Chill & Stream: Unwind with Netflix</strong> on our <strong>52-inch plasma TV with cable</strong>, or kick back in our <strong>rooftop hammock zone</strong>, wheter you're looking to relax after a day of exploring or socialize with fellow travelers, we've got the perfect spot for you!</p>
+        <p>🎬 🎮<strong>Chill, Play & Stream: Unwind with Netflix or either our Nintendo Switch or Xbox Series X</strong> on our <strong>52-inch plasma TV with cable</strong>, or kick back in our <strong>rooftop hammock zone</strong>, wheter you're looking to relax after a day of exploring or socialize with fellow travelers, we've got the perfect spot for you!</p>
       </div>
+
+      <div className={styles.experienceColombia}>
+        <p>🍷 <strong>Grab a drink at our Paisa Bar</strong> and immerse yourself in the local culture! Join our <strong>Tuesday Salsa Classes</strong> to learn some moves with fellow travelers, or practice your Spanish (and more!) at our lively <strong>Thursday Language Exchange</strong>. It’s the perfect way to meet locals, make friends, and experience the real Medellín.</p>
+      </div>
+
+      <h2>Amenities for Every Traveller:</h2>
+
+      <div className={styles.experienceColombia}>
+        <ul>
+          <li><strong>Fully equipped kitchen</strong> to cook your favorite meals</li>
+          <li><strong>Speedy laundry service</strong> to keep your clothes fresh</li>
+          <li><strong>High-speed WiFi & free internet</strong> access for all guests</li>
+        </ul>
+      </div>
+      <div className={styles.galleryDiv}>
+        <h2>Check our Pictures here:</h2>
+          <button type="submit" className={styles.galleryButton}>Click Here to Open up Our Gallery</button>
+      </div>
+      <Gallery />
+
 
     </main>
   );

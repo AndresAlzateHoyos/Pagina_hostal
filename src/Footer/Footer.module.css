@@ -29,3 +29,18 @@
     background-color: bisque;
     cursor: pointer; 
 }
+
+.contactFooterMobile {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .contactFooter {
+        display: none;
+    }
+
+    .contactFooterMobile {
+        display: block;
+        padding-top: 20px;
+    }
+}

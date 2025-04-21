@@ -24,3 +24,13 @@
     cursor: pointer;
     
 }
+
+@media (max-width: 768px) {
+    .bookDiv {
+        width: 80%;
+    }
+
+    .bookButton {
+        width: 40%;
+    }
+}

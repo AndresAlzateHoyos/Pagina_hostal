@@ -1,0 +1,11 @@
+.gallery img {
+    width: 30%;
+    margin: 20px auto;
+    border-radius: 25px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

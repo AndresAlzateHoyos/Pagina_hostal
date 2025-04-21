@@ -16,3 +16,50 @@
     border-radius: 25px;
     height: 50vw;
   }
+
+  .galleryDiv {
+    width: 60%;
+    background-color: #0B3D2E;
+    color: white;
+    margin: 0 auto;
+    height: 10em;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 30px;
+    margin-bottom: 60px;
+}
+
+.galleryButton {
+    width: 30%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid bisque;
+}
+
+.galleryButton:hover {
+    background-color: bisque;
+    cursor: pointer;
+    
+}
+
+  @media (max-width: 768px) {
+    .experienceColombia {
+      width: 80%;
+    }
+
+    .theHostelImg {
+      width: 80%;
+      height: 80vw;
+    }
+
+    .galleryDiv {
+      width: 80%;
+  }
+
+  .galleryButton {
+      width: 40%;
+  }
+  }

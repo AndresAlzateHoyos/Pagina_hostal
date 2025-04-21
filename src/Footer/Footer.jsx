@@ -17,6 +17,15 @@ function Footer () {
                     <button type="submit" className={styles.sendMessageButton}>SEND A MESSAGE</button>
                 </div>
             </div>
+            <div className={styles.contactFooterMobile}>
+            <div>
+                    <div>Cell: <strong>+57 315 539 4950</strong> </div>
+                    <div>Landline: <strong>604 301 7570</strong></div>
+                </div>
+                <div>
+                    <button type="submit" className={styles.sendMessageButton}>SEND A MESSAGE</button>
+                </div>
+            </div>
         </footer>
     )
 };
