@@ -5,6 +5,10 @@ import Gallery from '../gallery/Gallery';
 function TheHostel() {
   const [galleryOpen, setGalleryOpen] = useState(false);
 
+  const handleClick = () => {
+    setGalleryOpen(false);
+  }
+
   return (
     <main>
       <h1>About The Hostel</h1>
@@ -44,10 +48,17 @@ function TheHostel() {
       </div>
       <div className={styles.galleryDiv}>
         <h2>Check our Pictures here:</h2>
-          <button type="submit" className={styles.galleryButton}>Click Here to Open up Our Gallery</button>
+          <button type="submit" className={styles.galleryButton} onClick={() => setGalleryOpen(prev => !prev)}>Click Here to Open up Our Gallery</button>
       </div>
-      <Gallery />
+     { galleryOpen && <Gallery />}
 
+     <div className={styles.experienceColombia}>
+        <p><strong>The Wandering Paisa</strong>is nestled in <strong>Laureles</strong>, one of the most vibrant neighborhoods. Just steps away, <strong>La Setenta (7<sup>th</sup> Street)</strong> comes alive with <strong>local culture, bustling street life, and some of the best nightlife in the city</strong>.</p>
+     </div>
+
+     <div className={styles.experienceColombia}>
+        <p>Nearby you'll find the <strong>the City Sports Center and Stadium, the historic Bullring, and La 33's lively club district</strong>. Best of all, we're just a <strong>5-minute walk from Estadio Metro Station</strong>, providing fast, easy access to <strong>downtown Medellin and top attractions accross the city.</strong></p>
+     </div>
 
     </main>
   );

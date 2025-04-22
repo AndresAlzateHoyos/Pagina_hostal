@@ -5,12 +5,12 @@ import NavBar from '../NavBar/NavBar';
 import Home from '../Home/Home'
 import Footer from '../Footer/Footer';
 import TheHostel from '../theHostel/TheHostel';
-import About from '../about/About';
 import Reservations from '../reservations/Reservations';
 import Events from '../events/events';
 import GettingHere from '../gettingHere/GettingHere';
 import Contact from '../contact/Contact';
 import Blog from '../blog/Blog';
+import OurStory from '../ourHistory/OurStory';
 
 function App() {
 
@@ -20,7 +20,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/the-hostel' element={<TheHostel />} />
-        <Route path='/about' element={<About />} />
+        <Route path='/our-story' element={<OurStory />} />
         <Route path='/reservations' element={<Reservations />} />
         <Route path='/events' element={<Events />} />
         <Route path='/getting-here' element={<GettingHere />} />

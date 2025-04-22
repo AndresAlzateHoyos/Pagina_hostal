@@ -1,5 +1,5 @@
 .gallery img {
-    width: 30%;
+    width: 23%;
     margin: 20px auto;
     border-radius: 25px;
 }
@@ -8,4 +8,24 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .gallery img {
+        width: 40%;
+        margin: 20px auto;
+        border-radius: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery img {
+        width: 80%;
+        margin: 20px auto;
+        border-radius: 25px;
+    }
+
+    .gallery {
+        display: block;
+    }
 }

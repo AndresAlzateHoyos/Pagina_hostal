@@ -1,0 +1,30 @@
+.ownersImg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+  }
+  
+  .story {
+    border: 1px solid bisque;
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .ownersImg img {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 25px;
+  }
+
+  .flexStory {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    gap: 40px;
+    flex-wrap: wrap; /* útil para que en móvil no se desborde */
+  }
