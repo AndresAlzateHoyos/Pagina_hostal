@@ -1,0 +1,18 @@
+  .singleEvent {
+    border: 1px solid bisque;
+    width: 40%;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .singleEvent img {
+    width: 80%;
+    border-radius: 25px;
+    aspect-ratio: 4 / 2.5;
+  }
+
+  .allEvents {
+    display: flex;
+    flex-wrap: wrap;
+  }
