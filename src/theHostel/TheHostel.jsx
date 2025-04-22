@@ -31,9 +31,7 @@ function TheHostel() {
       <h2>Relax, Connect & Enjoy at The Wandering Paisa Hostel</h2>
       <div className={styles.experienceColombia}>
         <p>🎬 🎮<strong>Chill, Play & Stream: Unwind with Netflix or either our Nintendo Switch or Xbox Series X</strong> on our <strong>52-inch plasma TV with cable</strong>, or kick back in our <strong>rooftop hammock zone</strong>, wheter you're looking to relax after a day of exploring or socialize with fellow travelers, we've got the perfect spot for you!</p>
-      </div>
 
-      <div className={styles.experienceColombia}>
         <p>🍷 <strong>Grab a drink at our Paisa Bar</strong> and immerse yourself in the local culture! Join our <strong>Tuesday Salsa Classes</strong> to learn some moves with fellow travelers, or practice your Spanish (and more!) at our lively <strong>Thursday Language Exchange</strong>. It’s the perfect way to meet locals, make friends, and experience the real Medellín.</p>
       </div>
 
@@ -54,9 +52,7 @@ function TheHostel() {
 
      <div className={styles.experienceColombia}>
         <p><strong>The Wandering Paisa</strong>is nestled in <strong>Laureles</strong>, one of the most vibrant neighborhoods. Just steps away, <strong>La Setenta (7<sup>th</sup> Street)</strong> comes alive with <strong>local culture, bustling street life, and some of the best nightlife in the city</strong>.</p>
-     </div>
 
-     <div className={styles.experienceColombia}>
         <p>Nearby you'll find the <strong>the City Sports Center and Stadium, the historic Bullring, and La 33's lively club district</strong>. Best of all, we're just a <strong>5-minute walk from Estadio Metro Station</strong>, providing fast, easy access to <strong>downtown Medellin and top attractions accross the city.</strong></p>
      </div>
 

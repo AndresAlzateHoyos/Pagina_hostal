@@ -28,3 +28,21 @@
     gap: 40px;
     flex-wrap: wrap; /* útil para que en móvil no se desborde */
   }
+
+  @media (max-width: 768px) {
+    .flexStory {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .ownersImg {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .story {
+        width: 80%;
+        margin: 30px auto;
+    }
+  }

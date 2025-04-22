@@ -4,3 +4,35 @@
     border-radius: 25px;
     margin: 30px auto;
 }
+
+.allTransportOptions {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.transportOption {
+    border: 1px solid bisque;
+    width: 40%;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+li {
+    list-style: circle;
+    margin: 20px 0;
+}
+
+@media (max-width: 768px) {
+    .frameMap {
+        width: 80%;
+    }
+
+    .allTransportOptions {
+        display: block;
+    }
+
+    .transportOption {
+        width: 80%;
+    }
+}

@@ -16,3 +16,13 @@
     display: flex;
     flex-wrap: wrap;
   }
+
+  @media (max-width: 768px) {
+    .allEvents {
+        display: block;
+    }
+
+    .singleEvent {
+        width: 80%;
+    }
+  }

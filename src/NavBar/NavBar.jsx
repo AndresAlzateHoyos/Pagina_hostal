@@ -38,7 +38,7 @@ function NavBar() {
         <ul className={`${styles.navBarMobile} ${isMobileMenuOpen ? styles.showMenu : ''}`}>
           <li><NavLink to='/' className={styles.link} onClick={handleLinkClick}>Home</NavLink></li>
           <li><NavLink to='/the-hostel' className={styles.link} onClick={handleLinkClick}>The Hostel</NavLink></li>
-          <li><NavLink to='/about' className={styles.link} onClick={handleLinkClick}>About</NavLink></li>
+          <li><NavLink to='/our-story' className={styles.link} onClick={handleLinkClick}>Our Story</NavLink></li>
           <li><NavLink to='/reservations' className={styles.link} onClick={handleLinkClick}>Reservations</NavLink></li>
           <li><NavLink to='/events' className={styles.link} onClick={handleLinkClick}>Events</NavLink></li>
           <li><NavLink to='/getting-here' className={styles.link} onClick={handleLinkClick}>Getting Here</NavLink></li>

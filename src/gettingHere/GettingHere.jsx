@@ -6,33 +6,34 @@ export default function GettingHere () {
         <main>
             <h1>How to get to The Wandering Paisa Hostel</h1>
 
-            <div className={styles.transportOptions}>
-                <h3>From the Terminal Norte bus station:</h3>
-                <ul>
-                    <li><strong>For buses from</strong> Bogotá, Cartagena, Santa Marta, Bucaramanga.</li>
-                    <li>Take the Metro from <strong>Caribe Station → San Antonio → Transfer to Line B (San Javier) → Estadio</strong>.</li>
-                    <li>Walk <strong>4 blocks south</strong> on La Setenta (70th St.), then <strong>left on 44A St.</strong> (after Subway & Colanta).</li>
-                    <li>If you reach the nightclub La Logia or San Juan St., <strong>you’ve gone too far</strong>.</li>
-                </ul>
-            </div>
+            <div className={styles.allTransportOptions}>
+                <div className={styles.transportOption}>
+                    <h3>From the Terminal Norte bus station:</h3>
+                    <ul>
+                        <li><strong>For buses from</strong> Bogotá, Cartagena, Santa Marta, Bucaramanga.</li>
+                        <li>Take the Metro from <strong>Caribe Station → San Antonio → Transfer to Line B (San Javier) → Estadio</strong>.</li>
+                        <li>Walk <strong>4 blocks south</strong> on La Setenta (70th St.), then <strong>left on 44A St.</strong> (after Subway & Colanta).</li>
+                        <li>If you reach the nightclub La Logia or San Juan St., <strong>you’ve gone too far</strong>.</li>
+                    </ul>
+                </div>
 
-            <div className={styles.transportOptions}>
-                <h3>From the Terminal Sur bus station OR the Olaya Herrera local airport:</h3>
-                <ul>
-                    <li><strong>By Taxi:</strong> ~$7,000–8,000 COP. Tell the driver “La Setenta y Calle San Juan.”</li>
-                    <li><strong>By Metro (Cheapest Option):</strong> Walk <strong>4 blocks east</strong> on Calle 10 → <strong>Take Poblado Metro → San Antonio → Transfer to Line B (San Javier) → Estadio</strong>.</li>
-                    <li>Walk 4 blocks south on La Setenta, then left on 44A St. (after Subway & Colanta).</li>
-                </ul>
-            </div>
+                <div className={styles.transportOption}>
+                    <h3>From the Terminal Sur bus station OR the Olaya Herrera local airport:</h3>
+                    <ul>
+                        <li><strong>By Taxi:</strong> ~$7,000–8,000 COP. Tell the driver “La Setenta y Calle San Juan.”</li>
+                        <li><strong>By Metro (Cheapest Option):</strong> Walk <strong>4 blocks east</strong> on Calle 10 → <strong>Take Poblado Metro → San Antonio → Transfer to Line B (San Javier) → Estadio</strong>.</li>
+                        <li>Walk 4 blocks south on La Setenta, then left on 44A St. (after Subway & Colanta).</li>
+                    </ul>
+                </div>
 
-            <div className={styles.transportOptions}>
-                <h3>From the Terminal Norte bus station:</h3>
-                <ul>
-                    <li><strong>For buses from</strong> Bogotá, Cartagena, Santa Marta, Bucaramanga.</li>
-                    <li>Take the Metro from <strong>Caribe Station → San Antonio → Transfer to Line B (San Javier) → Estadio</strong>.</li>
-                    <li>Walk <strong>4 blocks south</strong> on La Setenta (70th St.), then <strong>left on 44A St.</strong> (after Subway & Colanta).</li>
-                    <li>If you reach the nightclub La Logia or San Juan St., <strong>you’ve gone too far</strong>.</li>
-                </ul>
+                <div className={styles.transportOption}>
+                    <h3>From the Rionegro/Jose Maria Cordova international airport:</h3>
+                    <h4>Most international flights will arrive here.</h4>
+                    <ul>
+                        <li><strong>By Taxi (Fastest/Easiest):</strong> ~$110,000–130,000 COP. Confirm price before getting in.</li>
+                        <li><strong>By Bus (Cheaper Option):</strong> Take a <strong>colectivo</strong> ($17,000 COP) to Medellín <strong>San Diego Mall</strong> → Take a taxi ($14,000 - 17,000 COP) → Ask for Calle San Juan & Carrera 68, then left to 44A St.</li>
+                    </ul>
+            </div>
             </div>
 
 
