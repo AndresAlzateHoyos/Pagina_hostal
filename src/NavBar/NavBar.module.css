@@ -73,7 +73,7 @@
     margin: 10px 0;
   }
   
-  @media (min-width: 769px) and (max-width: 1132px) {
+  @media (min-width: 769px) and (max-width: 1159px) {
     .nav {
       padding: 10px 0;
     }
