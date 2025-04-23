@@ -1,4 +1,5 @@
 [{
+    "id": 0,
     "name": "Salsa Lesson",
     "day": "Tuesdays",
     "timeStart": "8:00 PM",
@@ -6,7 +7,8 @@
     "info": "Join our free salsa class, one of the best things to do in Medellín! Our local pro instructor will guide you through the basics, and after class, we head to El Eslabón Prendido, one of Medellín’s top salsa bars. No experience needed—just bring your energy and let’s dance!",
     "image": "/images/events/salsa/0B9D6225-0563-4F2B-913A-CF33BC827E7F.jpg"
 },
-{
+{   
+    "id": 1,
     "name": "Language Exchange",
     "day": "Thursdays",
     "timeStart": "8:00 PM",
@@ -15,6 +17,7 @@
     "image": "/images/events/exchange/Group-2.jpg"
 },
 {
+    "id": 2,
     "name": "Karaoke Night",
     "day": "Fridats (Twice a Month)",
     "timeStart": "9:00 PM",
@@ -23,10 +26,11 @@
     "image": "/images/events/karaoke/The-Voice-Facebook.jpg"
 },
 {
+    "id": 3,
     "name": "Comedy Night",
     "day": "Select Saturdays",
     "timeStart": "8:00 PM",
     "timeEnd": "11:45 PM",
     "info": "Laugh out loud with “Siempre Poderosas”, an all-female comedy troupe performing the first Saturday of every month. Two weeks later, we host a general comedy night featuring top local talent. Come for the laughs, stay for the vibes!",
-    "image": ""
+    "image": "/images/carousel/Group-4-facebook.jpg"
 }]

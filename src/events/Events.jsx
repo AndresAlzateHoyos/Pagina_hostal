@@ -8,7 +8,7 @@ export default function Events () {
             <h1>Weekle Events at The Wandering Paisa Hostel</h1>
             <div className={styles.allEvents}>
                 {events.map(event => (
-                    <div className={styles.singleEvent}>
+                    <div className={styles.singleEvent} key={event.id}>
                         <h3>{event.name} - {event.day}, {event.timeStart} - {event.timeEnd}</h3>
                         <p>{event.info}</p>
                         <div className={styles.eventImg}><img src={event.image}></img></div>

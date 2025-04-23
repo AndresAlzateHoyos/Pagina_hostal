@@ -21,3 +21,35 @@
     border-radius: 30px;
     padding: 20px;
 }
+
+.contactImgMobile img{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .contact {
+        display: block;
+        margin: 60px auto;
+    }
+
+    .contactImg {
+        width: 100%;
+        margin: 30px auto;
+    }
+
+    .contactImg img {
+        display: none;
+    }
+
+    .contactImgMobile img {
+        display: block;
+        width: 80%;
+        border-radius: 25px;
+        margin: 30px auto;
+    }
+
+    .message {
+        width: 80%;
+        margin: 30px auto;
+    }
+}

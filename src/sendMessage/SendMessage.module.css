@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .infoForm {
@@ -13,6 +14,13 @@
     align-items: center;
 }
 
+.message {
+    width: 50%; /* o más */
+    background-color: #0B3D2E;
+    color: white;
+    border-radius: 30px;
+    padding: 20px;
+}
 
 .entireForm textarea {
     height: 15vw;
@@ -20,6 +28,8 @@
     padding: 20px;
     border: none;
     width: 90%;
+    display: block;
+    margin: 0 auto;
 }
 
 .entireForm input {
@@ -29,11 +39,17 @@
     border: none;
 }
 
+.textareaSide {
+    width: 100%;
+    text-align: center;
+}
+
 .textareaSide button {
     margin: 30px auto;
     padding: 10px;
     border-radius: 10px;
     border: none;
+    width: 90%;
 }
 
 .textareaSide button:hover {

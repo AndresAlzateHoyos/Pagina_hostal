@@ -4,16 +4,19 @@ import emailjs from 'emailjs-com';
 
 export default function SendMessage() {
   const form = useRef();
-  const [isSelected, setIsSelected] = useState(false);
+  const [nameSelected, setNameSelected] = useState(false);
+  const [emailSelected, setEmailSelected] = useState(false);
+  const [messageSelected, setMessageSelected] = useState(false);
+
   const [message, setMessage] = useState ('');
 
-  const handleClick = e => {
-    setIsSelected(true);
-  }
+  
 
-  const handleBlur = e => {
-    if (message.trim() === '') {
-      setIsSelected(false)
+  const handleBlur = (field, value) => {
+    if (value.trim() === '') {
+      if ( field === 'name') setNameSelected(false);
+      if ( field === 'email') setEmailSelected(false);
+      if ( field === 'message') setMessageSelected(false);
     }
   }
 
@@ -27,10 +30,14 @@ export default function SendMessage() {
     emailjs.sendForm('service_pnxkykg', 'template_vy3mpvp', form.current, 'r4TEpT3Dc2MN6FSRO')
       .then((result) => {
           console.log(result.text);
-          alert("Mensaje enviado!");
+          alert("Message sent!");
+          setNameSelected(false);
+          setEmailSelected(false);
+          setMessageSelected(false);
+          setMessage('');
       }, (error) => {
           console.log(error.text);
-          alert("Error al enviar.");
+          alert("Error sending.");
       });
   };
 
@@ -42,20 +49,20 @@ export default function SendMessage() {
           name="user_name" 
           required 
           id="user_name"
-          onClick={handleClick}
+          onClick={() => setNameSelected(true)}
           onChange={handleChange}
-          onBlur={handleBlur}
-          placeholder={isSelected ? '' : 'Your Entire Name'}
+          onBlur={(e) => handleBlur('name', e.target.value)}
+          placeholder={nameSelected ? '' : 'Your Entire Name'}
         />
         <input 
           type="email" 
           name="user_email" 
           required 
           id="user_email"
-          onClick={handleClick}
+          onClick={() => setEmailSelected(true)}
           onChange={handleChange}
-          onBlur={handleBlur}
-          placeholder={isSelected ? '' : 'Your Email'}
+          onBlur={(e) => handleBlur('email', e.target.value)}
+          placeholder={emailSelected ? '' : 'Your Email'}
         />
       </div>
       <div className={styles.textareaSide}>
@@ -64,12 +71,12 @@ export default function SendMessage() {
           name="message" 
           required 
           id='message' 
-          onClick={handleClick}
-          onBlur={handleBlur}
+          onClick={() => setMessageSelected(true)}
+          onBlur={(e) => handleBlur('message', e.target.value)}
           onChange={handleChange}
-          placeholder={isSelected ? '' : 'Write your message in here...'}
+          placeholder={messageSelected ? '' : 'Write your message in here...'}
         ></textarea>
-      <button  type="submit" value="Enviar">Submit</button>
+      <button  type="submit" value="Enviar">Send Message</button>
       </div>
     </form>
   );
