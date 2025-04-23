@@ -1,9 +1,25 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useState, useRef } from "react";
 import styles from './SendMessage.module.css';
 import emailjs from 'emailjs-com';
 
 export default function SendMessage() {
   const form = useRef();
+  const [isSelected, setIsSelected] = useState(false);
+  const [message, setMessage] = useState ('');
+
+  const handleClick = e => {
+    setIsSelected(true);
+  }
+
+  const handleBlur = e => {
+    if (message.trim() === '') {
+      setIsSelected(false)
+    }
+  }
+
+  const handleChange = e => {
+    setMessage(e.target.value);
+  }
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -21,14 +37,40 @@ export default function SendMessage() {
   return (
     <form ref={form} onSubmit={sendEmail} className={styles.entireForm}>
       <div className={styles.infoForm}>
-        <label>Nombre</label>
-        <input type="text" name="user_name" required />
-        <label>Email</label>
-        <input type="email" name="user_email" required />
+        <input 
+          type="text" 
+          name="user_name" 
+          required 
+          id="user_name"
+          onClick={handleClick}
+          onChange={handleChange}
+          onBlur={handleBlur}
+          placeholder={isSelected ? '' : 'Your Entire Name'}
+        />
+        <input 
+          type="email" 
+          name="user_email" 
+          required 
+          id="user_email"
+          onClick={handleClick}
+          onChange={handleChange}
+          onBlur={handleBlur}
+          placeholder={isSelected ? '' : 'Your Email'}
+        />
       </div>
-      <label>Mensaje</label>
-      <textarea className={styles.messageBox} name="message" required />
-      <input  type="submit" value="Enviar" />
+      <div className={styles.textareaSide}>
+        <textarea 
+          className={styles.messageBox} 
+          name="message" 
+          required 
+          id='message' 
+          onClick={handleClick}
+          onBlur={handleBlur}
+          onChange={handleChange}
+          placeholder={isSelected ? '' : 'Write your message in here...'}
+        ></textarea>
+      <button  type="submit" value="Enviar">Submit</button>
+      </div>
     </form>
   );
 }
