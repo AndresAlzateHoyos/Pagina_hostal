@@ -1,0 +1,21 @@
+.contact {
+    display: flex;
+    margin: 60px 0;
+    justify-content: space-evenly;
+}
+
+.contactImg {
+    width: 40%;
+}
+
+.contactImg img {
+    width: 80%;
+    border-radius: 25px;
+}
+
+.message {
+    width: 40%;
+    border: 1px solid bisque;
+    border-radius: 25px;
+    padding: 20px;
+}

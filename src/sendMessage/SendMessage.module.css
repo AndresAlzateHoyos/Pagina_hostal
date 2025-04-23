@@ -1,0 +1,16 @@
+.entireForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.infoForm {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.messageBox{
+    width: 95%;
+}

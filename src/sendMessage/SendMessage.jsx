@@ -19,14 +19,16 @@ export default function SendMessage() {
   };
 
   return (
-    <form ref={form} onSubmit={sendEmail}>
-      <label>Nombre</label>
-      <input type="text" name="user_name" required />
-      <label>Email</label>
-      <input type="email" name="user_email" required />
+    <form ref={form} onSubmit={sendEmail} className={styles.entireForm}>
+      <div className={styles.infoForm}>
+        <label>Nombre</label>
+        <input type="text" name="user_name" required />
+        <label>Email</label>
+        <input type="email" name="user_email" required />
+      </div>
       <label>Mensaje</label>
-      <textarea name="message" required />
-      <input type="submit" value="Enviar" />
+      <textarea className={styles.messageBox} name="message" required />
+      <input  type="submit" value="Enviar" />
     </form>
   );
 }
