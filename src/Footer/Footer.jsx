@@ -1,8 +1,14 @@
 import React from "react";
 import styles from './Footer.module.css'
-import { NavLink } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 function Footer () {
+    const navigate = useNavigate();
+
+    const handleSendMessageClick = () => {
+        navigate('/contact');
+    }
+
     return (
         <footer className={styles.footer}>
             <div className={styles.contactFooter}>
@@ -15,7 +21,11 @@ function Footer () {
                     <div>Landline: <strong>604 301 7570</strong></div>
                 </div>
                 <div>
-                    <button type="submit" className={styles.sendMessageButton}>SEND A MESSAGE</button>
+                    <button 
+                        type="submit" 
+                        className={styles.sendMessageButton}
+                        onClick={handleSendMessageClick}
+                        >SEND A MESSAGE</button>
                 </div>
             </div>
             <div className={styles.contactFooterMobile}>
@@ -24,7 +34,7 @@ function Footer () {
                     <div>Landline: <strong>604 301 7570</strong></div>
                 </div>
                 <div>
-                    <button type="submit" className={styles.sendMessageButton}><NavLink to='/contact' className={styles.link}>Send us a Message</NavLink></button>
+                    <button type="submit" className={styles.sendMessageButton}>Send us a Message</button>
                 </div>
             </div>
         </footer>
