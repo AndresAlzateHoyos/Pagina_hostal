@@ -16,7 +16,7 @@ export default function Contact () {
                         <p>Cell: <strong>+57 315 539 49 50</strong>.</p>
                         <p>Landline: <strong>604 301 75 70</strong></p>
                     </div>
-                    <img src='/images/contact/9BD8EE2D-B0D9-4C1C-A86F-B32E00171076.jpeg'></img>
+                    <img src='Pagina_hostal/images/contact/9BD8EE2D-B0D9-4C1C-A86F-B32E00171076.jpeg'></img>
                 </div>
                 <div className={styles.message}>
                     <h2>Or... Send us a Message!</h2>
