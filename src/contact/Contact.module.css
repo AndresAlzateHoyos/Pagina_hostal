@@ -26,6 +26,13 @@
     display: none;
 }
 
+.contactNumber {
+    border: 1px solid bisque;
+    border-radius: 25px;
+    width: 80%;
+    margin: 0 auto 30px auto;
+}
+
 @media (max-width: 768px) {
     .contact {
         display: block;

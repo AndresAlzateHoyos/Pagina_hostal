@@ -1,5 +1,6 @@
 import React from "react";
 import styles from './Footer.module.css'
+import { NavLink } from 'react-router-dom'
 
 function Footer () {
     return (
@@ -23,7 +24,7 @@ function Footer () {
                     <div>Landline: <strong>604 301 7570</strong></div>
                 </div>
                 <div>
-                    <button type="submit" className={styles.sendMessageButton}>SEND A MESSAGE</button>
+                    <button type="submit" className={styles.sendMessageButton}><NavLink to='/contact' className={styles.link}>Send us a Message</NavLink></button>
                 </div>
             </div>
         </footer>

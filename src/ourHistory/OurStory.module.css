@@ -23,10 +23,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
-    gap: 40px;
-    flex-wrap: wrap; /* útil para que en móvil no se desborde */
+    margin-bottom: 60px;
+    gap: 40px; /* útil para que en móvil no se desborde */
   }
 
   @media (max-width: 768px) {
@@ -39,6 +39,10 @@
     .ownersImg {
         width: 80%;
         margin: 0 auto;
+    }
+
+    .ownersImg img {
+        width: 100%;
     }
 
     .story {
