@@ -6,7 +6,7 @@ export default function Gallery () {
     return (
         <div className={styles.gallery}>
             {images.map((image, index) => (
-                <img key={index} src={image.src} alt={image.alt} />
+                <img key={index} src={import.meta.env.BASE_URL + image.src} alt={image.alt} />
             ))}
         </div>
     )

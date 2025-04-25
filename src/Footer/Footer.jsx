@@ -34,7 +34,11 @@ function Footer () {
                     <div>Landline: <strong>604 301 7570</strong></div>
                 </div>
                 <div>
-                    <button type="submit" className={styles.sendMessageButton}>Send us a Message</button>
+                    <button 
+                        type="submit" 
+                        className={styles.sendMessageButton}
+                        onClick={handleSendMessageClick} 
+                    >Send us a Message</button>
                 </div>
             </div>
         </footer>

@@ -11,7 +11,7 @@ export default function Events () {
                     <div className={styles.singleEvent} key={event.id}>
                         <h3>{event.name} - {event.day}, {event.timeStart} - {event.timeEnd}</h3>
                         <p>{event.info}</p>
-                        <div className={styles.eventImg}><img src={event.image}></img></div>
+                        <div className={styles.eventImg}><img src={import.meta.env.BASE_URL + event.image}></img></div>
                     </div>
                 ))}
             </div>

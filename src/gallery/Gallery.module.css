@@ -2,6 +2,7 @@
     width: 23%;
     margin: 20px auto;
     border-radius: 25px;
+    aspect-ratio: 4 / 3;
 }
 
 .gallery {

@@ -24,7 +24,6 @@ function NavBar() {
           <li><NavLink to='/events' className={styles.link}>Events</NavLink></li>
           <li><NavLink to='/getting-here' className={styles.link}>Getting Here</NavLink></li>
           <li><NavLink to='/contact' className={styles.link}>Contact</NavLink></li>
-          <li><NavLink to='/blog' className={styles.link}>Blog</NavLink></li>
         </ul>
 
         <button
@@ -43,7 +42,6 @@ function NavBar() {
           <li><NavLink to='/events' className={styles.link} onClick={handleLinkClick}>Events</NavLink></li>
           <li><NavLink to='/getting-here' className={styles.link} onClick={handleLinkClick}>Getting Here</NavLink></li>
           <li><NavLink to='/contact' className={styles.link} onClick={handleLinkClick}>Contact</NavLink></li>
-          <li><NavLink to='/blog' className={styles.link} onClick={handleLinkClick}>Blog</NavLink></li>
         </ul>
       </nav>
     </header>
