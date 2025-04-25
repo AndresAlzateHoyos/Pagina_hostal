@@ -29,7 +29,7 @@ function Home () {
             </Swiper>
 
             <div className={styles.prizeImg}>
-                <img src="/images/home/HostelWorldAward.png"></img>
+                <img src={`${import.meta.env.BASE_URL}images/home/HostelWorldAward.png`}></img>
             </div>
             
             <Swiper
@@ -50,7 +50,7 @@ function Home () {
             </div>
             <div className={styles.swiperMobile}>
             <div className={styles.prizeImg}>
-                <img src='Pagina_hostal/images/home/HostelWorldAward.png'></img>
+                <img src={`${import.meta.env.BASE_URL}images/home/HostelWorldAward.png`}></img>
             </div>
             <Swiper
                 modules={[Navigation, Autoplay]}
