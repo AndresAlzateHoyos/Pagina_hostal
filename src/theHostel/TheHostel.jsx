@@ -61,7 +61,7 @@ function TheHostel() {
      { galleryOpen && <Gallery />}
 
      <div className={styles.experienceColombia}>
-        <p><strong>The Wandering Paisa</strong>is nestled in <strong>Laureles</strong>, one of the most vibrant neighborhoods. Just steps away, <strong>La Setenta (7<sup>th</sup> Street)</strong> comes alive with <strong>local culture, bustling street life, and some of the best nightlife in the city</strong>.</p>
+        <p><strong>The Wandering Paisa</strong>is nestled in <strong>Laureles</strong>, one of the most vibrant neighborhoods. Just steps away, <strong>La Setenta (70<sup>th</sup> Street)</strong> comes alive with <strong>local culture, bustling street life, and some of the best nightlife in the city</strong>.</p>
 
         <p>Nearby you'll find the <strong>the City Sports Center and Stadium, the historic Bullring, and La 33's lively club district</strong>. Best of all, we're just a <strong>5-minute walk from Estadio Metro Station</strong>, providing fast, easy access to <strong>downtown Medellin and top attractions accross the city.</strong></p>
      </div>
