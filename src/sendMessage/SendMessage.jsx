@@ -2,6 +2,10 @@ import React, { useState, useRef } from "react";
 import styles from './SendMessage.module.css';
 import emailjs from 'emailjs-com';
 
+const SERVICE_ID  = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const PUBLIC_KEY  = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
+
 export default function SendMessage() {
   const form = useRef();
   const [nameSelected, setNameSelected] = useState(false);
@@ -27,7 +31,7 @@ export default function SendMessage() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_pnxkykg', 'template_vy3mpvp', form.current, 'r4TEpT3Dc2MN6FSRO')
+    emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
       .then((result) => {
           console.log(result.text);
           alert("Message sent!");
