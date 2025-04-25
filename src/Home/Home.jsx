@@ -29,7 +29,7 @@ function Home () {
             </Swiper>
 
             <div className={styles.prizeImg}>
-                <img src={`${import.meta.env.BASE_URL}images/home/HostelWorldAward.png`}></img>
+                <img src="/images/home/HostelWorldAward.png"></img>
             </div>
             
             <Swiper
