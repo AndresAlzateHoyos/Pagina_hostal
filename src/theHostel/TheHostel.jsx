@@ -27,7 +27,7 @@ function TheHostel() {
 
         <p>🌟 Wheter you're here to explore Medellin's vibrant culture or simply relax, <strong>The Wandering Paisa Hostel has everything you need for an unforgettable stay!</strong></p>
       </div>
-      <div><img src='./images/theHostel/2C4B6727-61F7-410E-B977-8C79ED393321-2.jpeg' className={styles.theHostelImg}></img></div>
+      <div><img src='/images/theHostel/2C4B6727-61F7-410E-B977-8C79ED393321-2.jpeg' className={styles.theHostelImg}></img></div>
 
       <div className={styles.importantsHostel}>
         <div>

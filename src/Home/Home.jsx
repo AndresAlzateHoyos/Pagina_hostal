@@ -22,14 +22,14 @@ function Home () {
                 loop
                 className={styles.carouselLeft}
             >
-                <SwiperSlide><img src={`${import.meta.env.BASE_URL}/images/carousel/0B9D6225-0563-4F2B-913A-CF33BC827E7F.jpg`} alt="Hostel 1" /></SwiperSlide>
-                <SwiperSlide><img src={`${import.meta.env.BASE_URL}/images/carousel/Group-2.jpg`} alt="Hostel 2" /></SwiperSlide>
-                <SwiperSlide><img src={`${import.meta.env.BASE_URL}/images/carousel/Group-4-facebook.jpg`} alt="Hostel 3" /></SwiperSlide>
-                <SwiperSlide><img src={`${import.meta.env.BASE_URL}/images/carousel/Wandering_Paisa-5-scaled.jpg`} alt="Hostel 3" /></SwiperSlide>
+                <SwiperSlide><img src={`${import.meta.env.BASE_URL}images/carousel/0B9D6225-0563-4F2B-913A-CF33BC827E7F.jpg`} alt="Hostel 1" /></SwiperSlide>
+                <SwiperSlide><img src={`${import.meta.env.BASE_URL}images/carousel/Group-2.jpg`} alt="Hostel 2" /></SwiperSlide>
+                <SwiperSlide><img src={`${import.meta.env.BASE_URL}images/carousel/Group-4-facebook.jpg`} alt="Hostel 3" /></SwiperSlide>
+                <SwiperSlide><img src={`${import.meta.env.BASE_URL}images/carousel/Wandering_Paisa-5-scaled.jpg`} alt="Hostel 3" /></SwiperSlide>
             </Swiper>
 
             <div className={styles.prizeImg}>
-                <img src={`${import.meta.env.BASE_URL}/images/home/HostelWorldAward.png`}></img>
+                <img src={`${import.meta.env.BASE_URL}images/home/HostelWorldAward.png`}></img>
             </div>
             
             <Swiper
@@ -41,10 +41,10 @@ function Home () {
                 loop
                 className={styles.carouselRight}
             >
-                <SwiperSlide><img src={`${import.meta.env.BASE_URL}/images/carousel/Hammock-Area.jpg`} alt="Hostel 1" /></SwiperSlide>
-                <SwiperSlide><img src={`${import.meta.env.BASE_URL}/images/carousel/IMG_5831.jpg`} alt="Hostel 2" /></SwiperSlide>
-                <SwiperSlide><img src={`${import.meta.env.BASE_URL}/images/carousel/miguel-22.jpg`} alt="Hostel 3" /></SwiperSlide>
-                <SwiperSlide><img src={`${import.meta.env.BASE_URL}/images/carousel/newsalsa.png`} alt="Hostel 3" /></SwiperSlide>
+                <SwiperSlide><img src={`${import.meta.env.BASE_URL}images/carousel/Hammock-Area.jpg`} alt="Hostel 1" /></SwiperSlide>
+                <SwiperSlide><img src={`${import.meta.env.BASE_URL}images/carousel/IMG_5831.jpg`} alt="Hostel 2" /></SwiperSlide>
+                <SwiperSlide><img src={`${import.meta.env.BASE_URL}images/carousel/miguel-22.jpg`} alt="Hostel 3" /></SwiperSlide>
+                <SwiperSlide><img src={`${import.meta.env.BASE_URL}images/carousel/newsalsa.png`} alt="Hostel 3" /></SwiperSlide>
             </Swiper>
 
             </div>
@@ -61,14 +61,14 @@ function Home () {
                 loop
                 className={styles.carouselLeft}
             >
-                <SwiperSlide><img src={`${import.meta.env.BASE_URL}/images/carousel/0B9D6225-0563-4F2B-913A-CF33BC827E7F.jpg`} alt="Hostel 1" /></SwiperSlide>
-                <SwiperSlide><img src={`${import.meta.env.BASE_URL}/images/carousel/Group-2.jpg`} alt="Hostel 2" /></SwiperSlide>
-                <SwiperSlide><img src={`${import.meta.env.BASE_URL}/images/carousel/Group-4-facebook.jpg`} alt="Hostel 3" /></SwiperSlide>
-                <SwiperSlide><img src={`${import.meta.env.BASE_URL}/images/carousel/Wandering_Paisa-5-scaled.jpg`} alt="Hostel 3" /></SwiperSlide>
-                <SwiperSlide><img src={`${import.meta.env.BASE_URL}/images/carousel/Hammock-Area.jpg`} alt="Hostel 1" /></SwiperSlide>
-                <SwiperSlide><img src={`${import.meta.env.BASE_URL}/images/carousel/IMG_5831.jpg`} alt="Hostel 2" /></SwiperSlide>
-                <SwiperSlide><img src={`${import.meta.env.BASE_URL}/images/carousel/miguel-22.jpg`} alt="Hostel 3" /></SwiperSlide>
-                <SwiperSlide><img src={`${import.meta.env.BASE_URL}/images/carousel/newsalsa.png`} alt="Hostel 3" /></SwiperSlide>
+                <SwiperSlide><img src={`${import.meta.env.BASE_URL}images/carousel/0B9D6225-0563-4F2B-913A-CF33BC827E7F.jpg`} alt="Hostel 1" /></SwiperSlide>
+                <SwiperSlide><img src={`${import.meta.env.BASE_URL}images/carousel/Group-2.jpg`} alt="Hostel 2" /></SwiperSlide>
+                <SwiperSlide><img src={`${import.meta.env.BASE_URL}images/carousel/Group-4-facebook.jpg`} alt="Hostel 3" /></SwiperSlide>
+                <SwiperSlide><img src={`${import.meta.env.BASE_URL}images/carousel/Wandering_Paisa-5-scaled.jpg`} alt="Hostel 3" /></SwiperSlide>
+                <SwiperSlide><img src={`${import.meta.env.BASE_URL}images/carousel/Hammock-Area.jpg`} alt="Hostel 1" /></SwiperSlide>
+                <SwiperSlide><img src={`${import.meta.env.BASE_URL}images/carousel/IMG_5831.jpg`} alt="Hostel 2" /></SwiperSlide>
+                <SwiperSlide><img src={`${import.meta.env.BASE_URL}images/carousel/miguel-22.jpg`} alt="Hostel 3" /></SwiperSlide>
+                <SwiperSlide><img src={`${import.meta.env.BASE_URL}images/carousel/newsalsa.png`} alt="Hostel 3" /></SwiperSlide>
             </Swiper>
             </div>
 
@@ -88,9 +88,9 @@ function Home () {
 
 
             <div className={styles.imgLine}>
-                <img src={`${import.meta.env.BASE_URL}/images/rooms/Brazil-Dorm-1.jpg`} ></img>
-                <img src={`${import.meta.env.BASE_URL}/images/rooms/Uruguay22.jpg`}></img>
-                <img src={`${import.meta.env.BASE_URL}/images/rooms/Argentina-1.jpg`}></img>
+                <img src={`${import.meta.env.BASE_URL}images/rooms/Brazil-Dorm-1.jpg`} ></img>
+                <img src={`${import.meta.env.BASE_URL}images/rooms/Uruguay22.jpg`}></img>
+                <img src={`${import.meta.env.BASE_URL}images/rooms/Argentina-1.jpg`}></img>
             </div>
 
             <div className={styles.informationLine}>

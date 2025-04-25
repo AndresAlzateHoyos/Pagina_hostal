@@ -13,7 +13,7 @@ function NavBar() {
     <header>
       <nav className={styles.nav}>
         <NavLink to='/' className={styles.logo}>
-          <img src={`${import.meta.env.BASE_URL}/images/Logo/logo_redondo_beige.png`} alt='Logo del hostal' />
+          <img src={`${import.meta.env.BASE_URL}images/Logo/logo_redondo_beige.png`} alt='Logo del hostal' />
         </NavLink>
 
         <ul className={styles.navBarDesktop}>
