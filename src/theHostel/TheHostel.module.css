@@ -40,12 +40,15 @@
     background-color: white;
     border-radius: 10px;
     border: 1px solid bisque;
+    color: #0B3D2E;
 }
 
-.galleryButton:hover {
-    background-color: bisque;
-    cursor: pointer;
-    
+
+@media (hover: hover) and (pointer: fine) {
+  .galleryButton:hover {
+      background-color: bisque;
+      cursor: pointer; 
+  }
 }
 
   @media (max-width: 768px) {

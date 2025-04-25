@@ -52,8 +52,9 @@
     width: 90%;
 }
 
-.textareaSide button:hover {
-    background-color: bisque;
-    cursor: pointer;
-    
+@media (hover: hover) and (pointer: fine) {
+    .textareaSide button:hover {
+        background-color: bisque;
+        cursor: pointer; 
+    }
 }

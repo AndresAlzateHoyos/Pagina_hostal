@@ -6,14 +6,14 @@ import Home from '../Home/Home'
 import Footer from '../Footer/Footer';
 import TheHostel from '../theHostel/TheHostel';
 import Reservations from '../reservations/Reservations';
-import Events from '../events/events';
+import Events from '../events/Events';
 import GettingHere from '../gettingHere/GettingHere';
 import Contact from '../contact/Contact';
 import Blog from '../blog/Blog';
 import OurStory from '../ourHistory/OurStory';
 
 function App() {
-    
+
 
   return (
     <div className={styles.app}>

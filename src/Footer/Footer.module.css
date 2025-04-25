@@ -23,15 +23,20 @@
     border-radius: 10px;
     border: 1px solid bisque;
     margin: 20px auto;
+    color: #0B3D2E;
 }
 
-.sendMessageButton:hover {
-    background-color: bisque;
-    cursor: pointer; 
-}
+
 
 .contactFooterMobile {
     display: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .sendMessageButton:hover {
+        background-color: bisque;
+        cursor: pointer; 
+    }
 }
 
 @media (max-width: 768px) {
